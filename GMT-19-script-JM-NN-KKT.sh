@@ -1,6 +1,6 @@
 #!/bin/sh
-# Purpose:    Gridding and clipping land areas, here: Kuril-Kamchatka Trench
-# GMT modules: gmtset, gmtinfo, gmtconvert, nearneighbor grdcontour, pscoast, psconvert
+# Purpose: Gridding data from the XYZ table by nearest neighbor algorithm, here: Kuril-Kamchatka Trench
+# GMT modules: gmtset, gmtdefaults, gmtinfo, gmtconvert, nearneighbor, grdcontour, pscoast, pstext, gmtlogo, psconvert
 # Step-1. Generate a file
 ps=GMT_NNgrid_KKT.ps
 # Step-2. GMT set up
